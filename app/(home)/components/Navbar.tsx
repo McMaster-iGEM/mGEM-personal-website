@@ -38,7 +38,7 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className={cn("py-10 flex justify-between items-center animate-move-down")}>
+        <nav className={cn(" bg-white fixed top-0 left-0 w-full py-10 flex justify-between items-center animate-move-down px-20 z-50")}>
             <div>
                 <img src="/MGEM-Logo.png" alt="MGEM" className="h-10"></img>
             </div>

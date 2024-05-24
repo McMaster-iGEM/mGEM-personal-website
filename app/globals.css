@@ -82,11 +82,18 @@
   }
 
   .customLarge {
-    font-size: 12rem;
-    line-height: 0.95;
+    font-size: 14rem;
+    line-height: 0.85;
     letter-spacing: normal;
+    font:bold;
   }
 
   .maroon {
     color: #800000
   }
+
+  .reverse-italic {
+    font-style: italic;
+    transform: scaleX(-1);
+  }
+

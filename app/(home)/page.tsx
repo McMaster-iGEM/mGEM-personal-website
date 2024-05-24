@@ -22,7 +22,7 @@ export default function Page() {
     <div>
       {isClient && (
         <BrowserRouter>
-          <div className='min-h-screen max-w-7xl mx-auto sm:p-5'>
+          <div className='min-h-screen max-w-screen mx-0'>
             <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />
