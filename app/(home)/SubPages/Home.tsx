@@ -5,7 +5,7 @@ import HeroSubSection from '../components/HeroSubSection';
 const Home = () => {
     return (
         <div className="mb-20">
-            <div className="mt-20 max-h-full customLarge flex flex-col overflow-hidden">
+            <div className="flex mt-20 max-h-full customLarge flex-col overflow-hidden">
 
                 <ContainerScroll titleComponent={
                     <>

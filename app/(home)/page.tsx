@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import GetInvolved from './SubPages/GetInvolved';
 import OurTeam from './SubPages/OurTeam';
 import Projects from './SubPages/Projects';
@@ -30,6 +31,7 @@ export default function Page() {
               <Route path="/projects" element={<Projects />} />
               <Route path="/get-involved" element={<GetInvolved />} />
             </Routes>
+            <Footer />
             
           </div>
         </BrowserRouter>

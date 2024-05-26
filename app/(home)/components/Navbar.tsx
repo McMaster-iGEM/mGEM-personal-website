@@ -1,7 +1,7 @@
 import React from 'react';
 import { SiGmail, SiInstagram } from "react-icons/si";
 import { cn } from "@/lib/utils";
-import {Link} from 'react-router-dom'; // Import Link from next/link
+import {Link} from 'react-router-dom';
 import WebMenu from './WebMenu';
 
 const Navbar = () => {
