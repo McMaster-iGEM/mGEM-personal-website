@@ -32,6 +32,7 @@ const Home = () => {
             </div>
             <hr></hr>
             <Storybook />
+
         </div>
     );
 }

@@ -13,7 +13,7 @@ export default function Storybook() {
 const SkeletonOne = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">House in the woods</p>
+      <p className="font-bold text-4xl text-white">Cool Photo ;-;</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -26,7 +26,7 @@ const SkeletonOne = () => {
 const SkeletonTwo = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">House above the clouds</p>
+      <p className="font-bold text-4xl text-white">Cool Photo ;-;</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -38,7 +38,7 @@ const SkeletonTwo = () => {
 const SkeletonThree = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">Greens all over</p>
+      <p className="font-bold text-4xl text-white">Cool Photo ;-;</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -50,7 +50,7 @@ const SkeletonThree = () => {
 const SkeletonFour = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">Rivers are serene</p>
+      <p className="font-bold text-4xl text-white">Cool Photo ;-;</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -73,7 +73,7 @@ const cards = [
     content: <SkeletonTwo />,
     className: "col-span-1",
     thumbnail:
-    "/placeholderimage.png",
+    "/MGEM-Logo.png",
   },
   {
     id: 3,

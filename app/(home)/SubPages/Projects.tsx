@@ -41,6 +41,7 @@ export default function Projects() {
             <div className="text-4xl font-bold text-left mt-14">
                 PAST PROJECTS
             </div>
+            <hr></hr>
             <div className="mt-14 grid grid-cols-1 md: grid-cols-2 sm:grid-cols-3 gap-2 px-4 mb-8 py-8">
                 {projects.map((projects, index) => (
                     <a key={index} href={projects.href} target="_blank" rel="noopener noreferrer">

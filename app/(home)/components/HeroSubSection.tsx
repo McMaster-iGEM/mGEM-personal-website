@@ -31,9 +31,6 @@ const HeroSubSection = () => {
                 <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm hover:scale-110">
                     Join our Newsletter
                     </button>
-                    {/* <button className="w-40 h-10 rounded-xl bg-white text-black border border-black  text-sm">
-                    Projects
-                    </button> */}
             </a>
         </div>
         </div>

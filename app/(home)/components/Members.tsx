@@ -53,11 +53,11 @@ const Members = () => {
             
             
             
-            <Title text="WetLab" className="mb-5" />
+            <Title text="Wet Lab" className="mb-5" />
 
             <hr></hr>
 
-            <Title text="DryLab" className="mb-5" />
+            <Title text="Dry Lab" className="mb-5" />
 
             <hr></hr>
 
@@ -65,7 +65,7 @@ const Members = () => {
 
             <hr></hr>
 
-            <Title text="WebDev" className="flex flex-col items-start justify-center mb-5" />
+            <Title text="Web Dev" className="flex flex-col items-start justify-center mb-5" />
             {/* <div className="grid grid-cols-1 sm:grid-cols-2 mb-10">
                 {webDev.map((member, index) => (
                     <Link href={member.link} key={index}>
