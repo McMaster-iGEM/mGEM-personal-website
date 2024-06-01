@@ -7,16 +7,16 @@ import { DirectionAwareHover } from './ui/direction-aware-hover';
 const Members = () => {
     const pres = [
         {
-            name: "HELLO",
-            about: "BYE",
-            link: "https://www.linkedin.com/in/vanessa-lai",
-            cover: "/MGEM-Logo.png",
+            name: "Andrew Chami",
+            about: "Co-President 2024 | Health Science (Honours)",
+            link: "https://www.linkedin.com/in/andrew-chami/",
+            cover: "/Andrew_Chami.JPG",
         },
         {
-            name: "HELLO",
-            about: "BYE",
-            link: "https://www.linkedin.com/in/vanessa-lai",
-            cover: "/MGEM-Logo.png",
+            name: "Chantel Luo",
+            about: "Co-President 2024 | Biomedical and Chemical Engineering, Level 3",
+            link: "https://www.linkedin.com/in/chantal-luo/",
+            cover: "/Chantel_Luo.JPG",
         }
 
     ];
@@ -33,8 +33,11 @@ const Members = () => {
 
     return (
         <div className="py-20 p-20 sm:p-0 text-left ">
-            <Title text="Co-Pres" className="flex flex-col items-start justify-center space-y-2" />
-            <div className="grid grid-cols-3">
+            <div className="text-5xl font-bold text-left mt-14">
+                TEAM
+            </div>
+            <Title text="Co-Pres" className="flex flex-col items-start justify-center mb-5" />
+            <div className="grid grid-cols-3 mb-10">
                 {pres.map((member, index) => (
                     <Link href={member.link} key={index}>
                         <DirectionAwareHover imageUrl={member.cover} className="w-full space-y-5 cursor-pointer">
@@ -46,9 +49,11 @@ const Members = () => {
                     </Link>
                 ))}
             </div>
+            
+            <hr></hr>
 
-            <Title text="WebDev" className="flex flex-col items-start justify-center " />
-            <div className="grid grid-cols-1 sm:grid-cols-2">
+            <Title text="WebDev" className="flex flex-col items-start justify-center mb-5" />
+            <div className="grid grid-cols-1 sm:grid-cols-2 mb-10">
                 {webDev.map((member, index) => (
                     <Link href={member.link} key={index}>
                         <DirectionAwareHover imageUrl={member.cover} className="w-full space-y-5 cursor-pointer">
@@ -60,6 +65,8 @@ const Members = () => {
                     </Link>
                 ))}
             </div>
+
+            <hr></hr>
         </div>
     );
 }
