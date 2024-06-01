@@ -35,6 +35,10 @@ const Navbar = () => {
             text: "Get Involved",
             path: "/get-involved"
         },
+        {
+            text: "Photo Gallery",
+            path: "/photo-gallery"
+        },
     ];
 
     return (

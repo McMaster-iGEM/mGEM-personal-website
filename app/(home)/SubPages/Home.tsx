@@ -1,12 +1,12 @@
 import React from 'react';
 import { ContainerScroll } from '../components/ui/container-scroll-animation';
 import HeroSubSection from '../components/HeroSubSection';
-import Storybook from '../components/Storybook';
+import Storybook from '../components/HeroPhotos';
 
 const Home = () => {
     return (
-        <div className="mb-20">
-            <div className="flex mt-20 max-h-full max-w-full space-y-10 customLarge flex-col overflow-hidden">
+        <div className="mb-20 max-w-7xl py-20 mx-auto items-center justify-center">
+            <div className="flex mt-20 max-h-full space-y-10 customLarge flex-col overflow-hidden">
 
                 <ContainerScroll titleComponent={
                     <>
@@ -27,7 +27,7 @@ const Home = () => {
                 </ContainerScroll>
             </div>
             <hr></hr>
-            <div >
+            <div className = "py-10" >
                 <HeroSubSection />
             </div>
             <hr></hr>

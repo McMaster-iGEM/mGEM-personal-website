@@ -1,6 +1,6 @@
 import React from "react";
 import { PinContainer } from "../components/ui/3d-pin";
-import Title from "../components/Title";
+import Title from "../components/Subtitle";
 
 export default function Projects() {
     const projects = [
@@ -30,9 +30,18 @@ export default function Projects() {
 
 
     return (
-        <div className="py-5 p-5 mt-16 z-0">
-            <Title text = "PROJECTS" className="flex flex-col items-center justify-center" />
-            <div className="mt-20 grid grid-cols-1 sm:grid-cols-4 gap-2 px-4 mb-14">
+        <div className="mt-16 z-0 max-w-7xl py-20 mx-auto">
+            {/* <div className="text-5xl font-bold text-left mt-14">
+                CURRENT PROJECT
+            </div> */}
+            <div className="text-4xl font-bold text-left mt-14 mb-5">
+                HP INITIATIVES & STORYBOOK
+            </div>
+            <hr></hr>
+            <div className="text-4xl font-bold text-left mt-14">
+                PAST PROJECTS
+            </div>
+            <div className="mt-14 grid grid-cols-1 md: grid-cols-2 sm:grid-cols-3 gap-2 px-4 mb-8 py-8">
                 {projects.map((projects, index) => (
                     <a key={index} href={projects.href} target="_blank" rel="noopener noreferrer">
                         <PinContainer

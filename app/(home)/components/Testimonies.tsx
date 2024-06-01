@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from './Title';
+import Title from './Subtitle';
 import { InfiniteMovingCards } from './ui/infinite-moving-cards';
 
 const Testimonies = () => {

@@ -7,6 +7,7 @@ import GetInvolved from './SubPages/GetInvolved';
 import OurTeam from './SubPages/OurTeam';
 import Projects from './SubPages/Projects';
 import Home from './SubPages/Home';
+import PhotoGallery from './SubPages/PhotoGallery';
 
 
 
@@ -30,6 +31,7 @@ export default function Page() {
               <Route path="/our-team" element={<OurTeam />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/get-involved" element={<GetInvolved />} />
+              <Route path="/photo-gallery" element={<PhotoGallery />} />
             </Routes>
             <Footer />
             
@@ -39,3 +41,4 @@ export default function Page() {
     </div>
   );
 }
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from './Title';
+import Title from './Subtitle';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { DirectionAwareHover } from './ui/direction-aware-hover';
@@ -32,12 +32,13 @@ const Members = () => {
     
 
     return (
-        <div className="py-20 p-20 sm:p-0 text-left ">
-            <div className="text-5xl font-bold text-left mt-14">
+        <div className="py-20 sm:p-0 text-left ">
+            <div className="text-4xl font-bold mt-14">
                 TEAM
             </div>
-            <Title text="Co-Pres" className="flex flex-col items-start justify-center mb-5" />
-            <div className="grid grid-cols-3 mb-10">
+            <Title text="Co-Pres" className="mb-5" />
+            <hr></hr>
+            <div className="flex flex-col items-start justify-center grid grid-cols-1 md: grid-cols-2 lg: grid-cols-3 py-10 mb-10">
                 {pres.map((member, index) => (
                     <Link href={member.link} key={index}>
                         <DirectionAwareHover imageUrl={member.cover} className="w-full space-y-5 cursor-pointer">
@@ -50,10 +51,22 @@ const Members = () => {
                 ))}
             </div>
             
+            
+            
+            <Title text="WetLab" className="mb-5" />
+
+            <hr></hr>
+
+            <Title text="DryLab" className="mb-5" />
+
+            <hr></hr>
+
+            <Title text="Human Practices" className="mb-5" />
+
             <hr></hr>
 
             <Title text="WebDev" className="flex flex-col items-start justify-center mb-5" />
-            <div className="grid grid-cols-1 sm:grid-cols-2 mb-10">
+            {/* <div className="grid grid-cols-1 sm:grid-cols-2 mb-10">
                 {webDev.map((member, index) => (
                     <Link href={member.link} key={index}>
                         <DirectionAwareHover imageUrl={member.cover} className="w-full space-y-5 cursor-pointer">
@@ -64,7 +77,19 @@ const Members = () => {
                         </DirectionAwareHover>
                     </Link>
                 ))}
-            </div>
+            </div> */}
+
+            <hr></hr>
+
+            <Title text="Media" className="mb-5" />
+
+            <hr></hr>
+
+            <Title text="Administration" className="mb-5" />
+
+            <hr></hr>
+
+            <Title text="Advisors" className="mb-5" />
 
             <hr></hr>
         </div>

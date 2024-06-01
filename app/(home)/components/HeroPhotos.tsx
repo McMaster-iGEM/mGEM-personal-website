@@ -73,7 +73,7 @@ const cards = [
     content: <SkeletonTwo />,
     className: "col-span-1",
     thumbnail:
-    "/MGEM-Logo.png",
+    "/placeholderimage.png",
   },
   {
     id: 3,
