@@ -68,7 +68,7 @@ const Members = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10 mb-10 gap-y-5">
                 {pres.map((member, index) => (
                     <Link href={member.link} key={index}>
-                        <DirectionAwareHover imageUrl={member.cover} className="cursor-pointer">
+                        <DirectionAwareHover imageUrl={member.cover} className="w-full cursor-pointer">
                             <div className="space-y-5">
                                 <h1 className="text-2xl font-bold">{member.name}</h1>
                                 <p>{member.about}</p>
@@ -82,7 +82,7 @@ const Members = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10 mb-10 gap-y-5">
                 {wetlab.map((member, index) => (
                     <Link href={member.link} key={index}>
-                        <DirectionAwareHover imageUrl={member.cover} className="cursor-pointer">
+                        <DirectionAwareHover imageUrl={member.cover} className="w-full cursor-pointer">
                             <div className="space-y-5">
                                 <h1 className="text-2xl font-bold">{member.name}</h1>
                                 <p>{member.about}</p>
@@ -124,7 +124,11 @@ const Members = () => {
 
             <hr></hr>
 
-            <Title text="Advisors" className="mb-5" />
+            <div className="text-4xl font-bold mt-14">
+                STAFF
+            </div>
+
+            <Title text="Mentors" className="mb-5" />
 
             <hr></hr>
         </div>

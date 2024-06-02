@@ -30,10 +30,7 @@ export default function Projects() {
 
 
     return (
-        <div className="mt-16 z-0 max-w-7xl py-10 mx-auto px-5">
-            {/* <div className="text-5xl font-bold text-left mt-14">
-                CURRENT PROJECT
-            </div> */}
+        <div className="max-w-7xl py-10 mt-16 mx-auto max-h-full px-5">
             <div className="text-4xl font-bold text-left mt-14 mb-5">
                 HP INITIATIVES & STORYBOOK
             </div>
@@ -42,7 +39,7 @@ export default function Projects() {
                 PAST PROJECTS
             </div>
             <hr></hr>
-            <div className="mt-14 grid grid-cols-1 md: grid-cols-2 sm:grid-cols-3 gap-2 px-4 mb-8 py-8">
+            <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10 mb-10 gap-y-5 px-4">
                 {projects.map((projects, index) => (
                     <a key={index} href={projects.href} target="_blank" rel="noopener noreferrer">
                         <PinContainer

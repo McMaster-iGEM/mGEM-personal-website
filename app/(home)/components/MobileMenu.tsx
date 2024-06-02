@@ -36,7 +36,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ links, close }) => {
             <div className="fixed inset-0 top-0 w-full p-5">
                 <div className={`w-full bg-white rounded-xl p-5 transition-all ${animation ? "scale-100" : "scale-95"}`}>
                     <div className="flex justify-between items-center mb-5">
-                        <h1 className="text-xl font-bold">Navigation</h1>
+                        <h1 className="text-xl font-bold font-italic">Navigation</h1>
                         <IoCloseOutline className="w-7 h-7 hover:scale-110 transition-all cursor-pointer" onClick={close} />
                     </div>
                     <div className="mt-5 divide-y">

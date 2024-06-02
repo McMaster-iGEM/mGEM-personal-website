@@ -1,5 +1,6 @@
 import React from 'react';
 import { TypewriterEffectSmooth } from './ui/typewriter-effect';
+import { Button } from './ui/moving-border';
 
 const HeroSubSection = () => {
     const words = [
@@ -21,8 +22,9 @@ const HeroSubSection = () => {
         },
       ];
     return (
-        <div className="flex flex-col items-center justify-center h-[30rem] mt-10">
-        <p className="text-neutral-600 dark:text-neutral-200 text-base sm:text-xl  ">
+      <Button>
+        <div className="flex flex-col items-center justify-center h-[20rem]">
+        <p className="text-neutral-600 text-3xl sm:text-4xl  ">
             we are blah blah blah!
         </p>
         <TypewriterEffectSmooth words={words} />
@@ -34,6 +36,8 @@ const HeroSubSection = () => {
             </a>
         </div>
         </div>
+      </Button>
+
     );
 }
 
