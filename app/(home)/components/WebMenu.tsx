@@ -8,7 +8,7 @@ interface LinkData {
 
 const WebMenu = ({ links }: { links: LinkData[] }) => {
     return (
-        <div className="text-zinc-400 flex gap-6 items-center shadow-md border border-zinc-300 rounded-full px-5 py-3 bg-white">
+        <div className="hidden sm:flex md:flex text-zinc-400 gap-6 items-center shadow-md border border-zinc-300 rounded-full px-5 py-3">
             {links.map(({ text, path }: LinkData, index: number) => (
                 <Link
                     key={index}

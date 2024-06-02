@@ -30,7 +30,7 @@ export default function Projects() {
 
 
     return (
-        <div className="mt-16 z-0 max-w-7xl py-20 mx-auto">
+        <div className="mt-16 z-0 max-w-7xl py-10 mx-auto px-5">
             {/* <div className="text-5xl font-bold text-left mt-14">
                 CURRENT PROJECT
             </div> */}

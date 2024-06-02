@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 const GetInvolved = () => {
     return (
-        <div className="max-w-7xl py-5 mt-16 mx-auto max-h-full">
+        <div className="max-w-7xl py-10 mt-16 mx-auto max-h-full px-5">
             <div className="text-4xl font-bold text-left mt-14">
                 GET INVOLVED
             </div>
-            <div className = "min-h-[60vh] flex items-center justify-between">
+            <div className = "min-h-[60vh] flex items-center justify-between ">
                 <div className = "space-y-10">
                     <h2 className = "text-3xl lg:text-4xl font-bold underline underline-offset-2 decoration-red-700">
                         Officia qui irure fugiat dolor Lorem commodo.
