@@ -60,7 +60,7 @@ const Members = () => {
 
     return (
         <div className="py-20 sm:p-0 text-left ">
-            <div className="text-4xl font-bold mt-14">
+            <div className="text-4xl font-bold mt-32">
                 TEAM
             </div>
             <Title text="Co-Pres" className="mb-5" />

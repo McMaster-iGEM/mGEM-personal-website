@@ -7,25 +7,25 @@ export default function Projects() {
       href: "https://2023.igem.wiki/mcmaster-canada/",
       heading: "2023 Project",
       description: "insert project description",
-      image: "/placeholderimage.png"
+      image: "/black_screen.png"
     },
     {
       href: "https://2022.igem.wiki/mcmaster-canada/",
       heading: "2022 Project",
       description: "insert project description",
-      image: "/placeholderimage.png"
+      image: "/black_screen.png"
     },
     {
       href: "https://www.frontiersin.org/articles/10.3389/fsysb.2023.1274184/full",
       heading: "Publication",
       description: "HYPOTHESIS AND THEORY article",
-      image: "/placeholderimage.png"
+      image: "/black_screen.png"
     }
   ];
 
   return (
-    <div className="max-w-7xl py-10 mt-16 mx-auto max-h-full px-5">
-      <div className="text-4xl font-bold text-left mt-14">
+    <div className="max-w-7xl py-10 mx-auto max-h-full px-5">
+      <div className="text-4xl font-bold text-left mt-32">
         CURRENT PROJECTS
       </div>
       <hr />

@@ -17,7 +17,7 @@ const Testimonies = () => {
 
     ]
     return (
-        <div className='mt-10 '>
+        <div className='mt-5'>
             <Title text="TESTIMONIES" className="flex flex-col items-start justify-center mb-5" />
             <hr></hr>
             <InfiniteMovingCards items={testimonies}  ></InfiniteMovingCards>
