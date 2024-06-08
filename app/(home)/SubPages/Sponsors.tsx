@@ -9,11 +9,14 @@ const Sponsors = () => {
                 SPONSORS
                 <div className = "min-h-[60vh] flex items-center justify-between ">
                 <div className = "space-y-10">
-                    <h2 className = "text-3xl lg:text-4xl font-bold underline underline-offset-2 decoration-red-700">
+                    <h2 className = "text-3xl lg:text-4xl font-bold underline underline-offset-2 maroon-decoration">
                         Thank you message probably. 
                     </h2>
-                    <p className = "md:w-96 text-lg text-gray-800"> 
-                        Learn more about sponsorship opportunities by emailing us.
+                    <p className = "md:w-96 text-lg text-gray-800 py-2"> 
+                        Interested in sponsorship or collaboration opportunities?
+                        <br/>
+                        <br/>
+                        Learn more about our sponsorship package by emailing us.
                     </p>
                     <Link href="mailto:igemmcmaster@gmail.com" className = "inline-block">
                         <div>

@@ -29,7 +29,7 @@ export const PinContainer = ({
         <AnimatePresence>
           {hovered && (
             <motion.div
-              className="absolute inset-0 bg-neutral-200 dark:bg-slate-800/[0.8] rounded-lg"
+              className="absolute inset-0 maroon rounded-lg"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1, transition: { duration: 0.15 } }}
               exit={{ opacity: 0, transition: { duration: 0.15, delay: 0.2 } }}
@@ -37,7 +37,7 @@ export const PinContainer = ({
           )}
         </AnimatePresence>
         <motion.div
-          className="p-2 flex justify-start items-start rounded-lg shadow-md border border-gray-300 bg-transparent overflow-hidden"
+          className="p-2 flex justify-start items-start rounded-lg shadow-md border border-gray-300 bg-white overflow-hidden"
           initial={{ scale: 1 }}
           transition={{ type: "spring", stiffness: 300, damping: 20 }}
         >

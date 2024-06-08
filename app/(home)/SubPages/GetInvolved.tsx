@@ -10,7 +10,7 @@ const GetInvolved = () => {
             </div>
             <div className = "min-h-[60vh] flex items-center justify-between ">
                 <div className = "space-y-10">
-                    <h2 className = "text-3xl lg:text-4xl font-bold underline underline-offset-2 decoration-red-700">
+                    <h2 className = "text-3xl lg:text-4xl font-bold underline underline-offset-2 maroon-decoration">
                         Officia qui irure fugiat dolor Lorem commodo.
                     </h2>
                     <p className = "md:w-96 text-lg text-gray-800"> 

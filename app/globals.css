@@ -89,8 +89,12 @@
   }
 
   .maroon {
-    background-color: #7A003C
+    background-color: #7A003C;
     
+  }
+
+  .maroon-decoration {
+    text-decoration-color: #7A003C;
   }
 
   .reverse-italic {

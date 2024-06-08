@@ -7,7 +7,7 @@ import GetInvolved from './SubPages/GetInvolved';
 import OurTeam from './SubPages/OurTeam';
 import Projects from './SubPages/Projects';
 import Home from './SubPages/Home';
-import AboutUs from './SubPages/PhotoGallery';
+import AboutUs from './SubPages/AboutUs';
 import Sponsors from './SubPages/Sponsors';
 
 
