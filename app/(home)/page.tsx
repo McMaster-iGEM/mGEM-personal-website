@@ -7,7 +7,8 @@ import GetInvolved from './SubPages/GetInvolved';
 import OurTeam from './SubPages/OurTeam';
 import Projects from './SubPages/Projects';
 import Home from './SubPages/Home';
-import PhotoGallery from './SubPages/PhotoGallery';
+import AboutUs from './SubPages/PhotoGallery';
+import Sponsors from './SubPages/Sponsors';
 
 
 
@@ -31,7 +32,8 @@ export default function Page() {
               <Route path="/our-team" element={<OurTeam />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/get-involved" element={<GetInvolved />} />
-              <Route path="/photo-gallery" element={<PhotoGallery />} />
+              <Route path="/about-us" element={<AboutUs />} />
+              <Route path="/sponsors" element={<Sponsors />} />
             </Routes>
             <Footer />
             

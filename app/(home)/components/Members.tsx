@@ -131,6 +131,10 @@ const Members = () => {
             <Title text="Mentors" className="mb-5" />
 
             <hr></hr>
+            
+            <Title text="PI" className="mb-5" />
+
+            <hr></hr>
         </div>
     );
 }

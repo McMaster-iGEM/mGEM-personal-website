@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { SiGmail, SiInstagram } from "react-icons/si";
+import { SiGmail, SiInstagram, SiLinkedin } from "react-icons/si";
 import { cn } from "@/lib/utils"; // Ensure this utility function is correctly implemented
-import { Link } from 'react-router-dom';
 import WebMenu from './WebMenu';
 import MobileMenu from './MobileMenu';
+import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
     const socials = [
@@ -17,12 +17,18 @@ const Navbar: React.FC = () => {
             label: "Instagram",
             Icon: SiInstagram
         },
+        {
+            link: "https://www.linkedin.com/company/igem-mcmaster/",
+            label: "Linkedin",
+            Icon: SiLinkedin
+        }
     ];
+
 
     const links = [
         {
-            text: "Home",
-            path: "/"            
+            text: "About Us",
+            path: "/about-us"
         },
         {
             text: "Our Team",
@@ -37,8 +43,8 @@ const Navbar: React.FC = () => {
             path: "/get-involved"
         },
         {
-            text: "Photo Gallery",
-            path: "/photo-gallery"
+            text: "Sponsors",
+            path: "/sponsors"            
         },
     ];
 
@@ -46,9 +52,13 @@ const Navbar: React.FC = () => {
 
     return (
         <nav className={cn("bg-white fixed top-0 left-0 w-full py-10 flex justify-between items-center animate-move-down px-20 z-50")}>
-            <div>
-                <img src="/MGEM-Logo.png" alt="MGEM" className="h-10" />
-            </div>
+            
+            <Link to="/">
+                <div>
+                    <img src="/MGEM-Logo.png" alt="MGEM" className="h-10" />
+                </div>
+            </Link>
+
             <WebMenu links={links} />
             <div className="flex justify-center w-full sm:hidden">
                 <button
