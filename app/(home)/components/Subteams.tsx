@@ -4,12 +4,17 @@ import { StickyScroll } from './ui/sticky-scroll-reveal';
 const Subteams = () => {
     const content = [
         {
-            title: "WetLab",
+            title: "Wet Lab",
             description: "Nostrud laborum consectetur proident sit.",
             content: <img src="/MGEM-Logo.png" alt="MGEM Logo" />
         },
         {
-            title: "DryLab",
+            title: "Dry Lab",
+            description: "Nostrud laborum consectetur proident sit.",
+            content: <img src="/MGEM-Logo.png" alt="MGEM Logo" />
+        },
+        {
+            title: "Human Practices",
             description: "Nostrud laborum consectetur proident sit.",
             content: <img src="/MGEM-Logo.png" alt="MGEM Logo" />
         },

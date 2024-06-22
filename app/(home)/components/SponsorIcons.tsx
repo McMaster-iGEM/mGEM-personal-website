@@ -9,13 +9,38 @@ export function SponsorIcons() {
 }
 export const sponsors = [
   {
-    title: "Company Name",
+    title: "McMaster University Biochemistry & Biomedical Sciences",
     link: "",
     icon: "/MGEM-Logo.png"
   },
   {
-    title: "Company Name",
+    title: "McMaster University Office of the President",
     link: "",
     icon: "/MGEM-Logo.png"
-  }
+  },
+  {
+    title: "McMaster University Alumni",
+    link: "",
+    icon: "/MGEM-Logo.png"
+  },
+  {
+    title: "McMaster University Office of the Provost",
+    link: "",
+    icon: "/MGEM-Logo.png"
+  },
+  {
+    title: "McMaster University Health Sciences",
+    link: "",
+    icon: "/MGEM-Logo.png"
+  },
+  {
+    title: "McMaster University Science",
+    link: "",
+    icon: "/MGEM-Logo.png"
+  },
+  {
+    title: "McMaster University Engineering",
+    link: "",
+    icon: "/MGEM-Logo.png"
+  },
 ];

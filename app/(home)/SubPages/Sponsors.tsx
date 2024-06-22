@@ -32,7 +32,6 @@ const Sponsors = () => {
             </div>
             <hr></hr>
                 <SponsorIcons />
-                <hr />
             </div>
         </div>
     );

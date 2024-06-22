@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className={cn("bg-white fixed top-0 left-0 w-full py-10 flex justify-between items-center animate-move-down px-20 z-50")}>
+        <nav className={cn("bg-white fixed top-0 left-0 w-full py-10 flex justify-between items-center animate-move-down px-10 z-50")}>
             
             <Link to="/">
                 <div>
