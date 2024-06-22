@@ -10,7 +10,7 @@ const Sponsors = () => {
                 <div className = "min-h-[60vh] flex items-center justify-between ">
                 <div className = "space-y-10">
                     <h2 className = "text-3xl lg:text-4xl font-bold underline underline-offset-2 maroon-decoration">
-                        Thank you message probably. 
+                        Thank you to all our sponsors! 
                     </h2>
                     <p className = "md:w-96 text-lg text-gray-800 py-2"> 
                         Interested in sponsorship or collaboration opportunities?
