@@ -9,6 +9,7 @@ import Projects from './SubPages/Projects';
 import Home from './SubPages/Home';
 import AboutUs from './SubPages/AboutUs';
 import Sponsors from './SubPages/Sponsors';
+import ScrollToTop from './components/ScroolToTop';
 
 
 
@@ -27,6 +28,7 @@ export default function Page() {
         <BrowserRouter>
           <div className='min-h-screen max-w-screen mx-0'>
             <Navbar />
+            <ScrollToTop />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/our-team" element={<OurTeam />} />
