@@ -22,20 +22,20 @@ const AboutUs = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="stats__item text-center md:border-l-0 border-white">
                             <div className="inline-block">
-                                <h1 className="text-5xl font-bold mb-4">40+</h1>
+                                <h1 className="text-5xl font-bold mb-4">36+</h1>
                                 <p className="text-xl">Members</p>
                             </div>
                         </div>
                         <div className="stats__item text-center border-white md:border-l md:border-r-0">
                             <div className="inline-block">
-                                <h1 className="text-5xl font-bold mb-4">5+</h1>
+                                <h1 className="text-5xl font-bold mb-4">10+</h1>
                                 <p className="text-xl">Years Established</p>
                             </div>
                         </div>
                         <div className="stats__item text-center md:border-l md:border-r-0 border-white">
                             <div className="inline-block">
-                                <h1 className="text-5xl font-bold mb-4">2nd</h1>
-                                <p className="text-xl">Place in 2023</p>
+                                <h1 className="text-5xl font-bold mb-4">Silver</h1>
+                                <p className="text-xl">Medalist 2023</p>
                             </div>
                         </div>
                     </div>
