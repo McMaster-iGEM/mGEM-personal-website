@@ -1,7 +1,13 @@
+/* eslint-disable @next/next/no-img-element */
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
+
+// Utility function to check if a URL is external
+const isExternalLink = (url: string) => {
+  return /^https?:\/\//.test(url);
+};
 
 export const HoverEffect = ({
   items,
@@ -11,6 +17,7 @@ export const HoverEffect = ({
     title: string;
     link: string;
     icon: string;
+    description: string;
   }[];
   className?: string;
 }) => {
@@ -30,6 +37,7 @@ export const HoverEffect = ({
           className="relative group block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
+          {...(isExternalLink(item?.link) ? { target: "_blank", rel: "noopener noreferrer" } : {})}
         >
           <AnimatePresence>
             {hoveredIndex === idx && (
@@ -48,12 +56,12 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card icon={item.icon}>
-            <div className="flex justify-between items-center">
-              <CardTitle>{item.title}</CardTitle>
-            </div>
-            <CardDescription icon={item.icon} />
-          </Card>
+          <Card
+            icon={item.icon}
+            title={item.title}
+            description={item.description}
+            isHovered={hoveredIndex === idx}
+          />
         </Link>
       ))}
     </div>
@@ -62,21 +70,35 @@ export const HoverEffect = ({
 
 export const Card = ({
   className,
-  children,
+  title,
+  icon,
+  description,
+  isHovered,
 }: {
   className?: string;
-  children: React.ReactNode;
-  icon?: string;
+  title: string;
+  icon: string;
+  description: string;
+  isHovered: boolean;
 }) => {
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full p-4 overflow-hidden bg-white border border-slate-300  relative z-20",
+        "rounded-2xl h-full w-full p-4 overflow-hidden bg-white border border-slate-300 relative z-20",
         className
       )}
     >
       <div className="relative z-50">
-        <div className="p-4">{children}</div>
+        <div className="p-4">
+          {isHovered ? (
+            <p className="text-left text-base whitespace-pre-wrap">{description}</p>
+          ) : (
+            <>
+              <CardTitle>{title}</CardTitle>
+              <CardDescription icon={icon} />
+            </>
+          )}
+        </div>
       </div>
     </div>
   );
@@ -97,13 +119,15 @@ export const CardTitle = ({
 };
 
 export const CardDescription = ({
-    className,
-    icon,
-  }: {
-    className?: string;
-    icon?: string;
-  }) => {
-    return (
-      <img src={icon} alt="Logo" className={cn("h-fill w-fill object-contain mt-3", className)} />
-    );
-  };
+  className,
+  icon,
+}: {
+  className?: string;
+  icon?: string;
+}) => {
+  return (
+    <div className="flex items-center justify-center h-full mt-2">
+      <img src={icon} alt="Logo" className={cn("h-32 w-32 object-contain", className)} />
+    </div>
+  );
+};
