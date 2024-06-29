@@ -6,13 +6,13 @@ import Storybook from '../components/HeroPhotos';
 const Home = () => {
     return (
         <div className="mb-20 max-w-7xl py-10 mx-auto items-center justify-center px-5">
-            <div className="flex mt-20 max-h-full space-y-10 customLarge flex-col overflow-hidden">
+            <div className="flex mt-20 max-h-full space-y-10 flex-col overflow-hidden ">
 
                 <ContainerScroll titleComponent={
                     <>
-                        <div className = "italic">mGEM</div>
-                        <div className="stroke reverse-italic">mGEM</div>
-                        <div className = "italic">mGEM</div>
+                        <div className="italic text-6xl md:text-7xl lg:text-9xl xl:text-[14rem]">mGEM</div>
+                        <div className="stroke reverse-italic text-6xl md:text-7xl  lg:text-9xl xl:text-[14rem]">mGEM</div>
+                        <div className="italic text-6xl  md:text-7xl lg:text-9xl xl:text-[14rem]">mGEM</div>
                     </>
                 }>
                     <video
@@ -26,13 +26,12 @@ const Home = () => {
                     </video>
                 </ContainerScroll>
             </div>
-            <hr></hr>
-            <div className = "py-10" >
+            <hr />
+            <div className="py-10">
                 <HeroSubSection />
             </div>
-            <hr></hr>
+            <hr />
             <Storybook />
-
         </div>
     );
 }

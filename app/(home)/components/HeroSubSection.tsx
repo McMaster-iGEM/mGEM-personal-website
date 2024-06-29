@@ -25,7 +25,7 @@ const HeroSubSection = () => {
     return (
       <Button>
         <div className="flex flex-col items-center justify-center h-[20rem]">
-        <p className="text-neutral-600 text-2xl sm:text-3xl  ">
+        <p className="text-neutral-600 sm:text-base md:text-2xl lg:3xl xl:4xl ">
           We are an interdisciplinary team of students working to create
         </p>
         <TypewriterEffectSmooth words={words} />

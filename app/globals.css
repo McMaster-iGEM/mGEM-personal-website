@@ -81,12 +81,6 @@
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
 
-  .customLarge {
-    font-size: 14rem;
-    line-height: 0.85;
-    letter-spacing: normal;
-    font:bold;
-  }
 
   .maroon {
     background-color: #7A003C;

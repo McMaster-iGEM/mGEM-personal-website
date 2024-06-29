@@ -10,7 +10,7 @@ const AboutUs = () => {
             <Title text="Our Mission" className="mb-5" />
             <hr />
             <div className ="flex items-center justify-between">
-                <p className = "text-xl mt-3">
+                <p className = "text-xl mt-5 font-sans">
                 A highly accomplished international synthetic biology competition aimed towards mostly undergraduates, 
                 with the involvement of graduates, professors, and various stakeholders. Interdisciplinary teams 
                 specializing in Wet Lab, Dry Lab, and Human Practices collaborate to create novel synthetic biology 
@@ -44,8 +44,8 @@ const AboutUs = () => {
 
             <Title text="Wet Lab" className="mb-5" />
             <hr />
-            <div className ="flex items-center justify-between">
-                <p className = "max-w-2xl text-xl mt-3">
+            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
+                <p className = "max-w-2xl text-xl mt-3 font-sans">
                 Wet lab is a subcommittee of the iGEM team that is responsible for developing biological 
                 background for the project. This team is responsible for completing background literature reviews 
                 for the project to provide a rationale and proof of concept. The team is also responsible for 
@@ -60,7 +60,7 @@ const AboutUs = () => {
 
             <Title text="Dry Lab" className="mb-5 text-right" />
             <hr />
-            <div className ="flex items-center justify-between">
+            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
                 <div>
                     <img src="/MGEM-Logo.png" alt="Logo" width="500" height="500" />
                 </div>
@@ -71,8 +71,8 @@ const AboutUs = () => {
 
             <Title text="Human Practices" className="mb-5" />
             <hr />
-            <div className ="flex items-center justify-between">
-                <p className = "max-w-2xl text-xl mt-3">
+            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
+                <p className = "max-w-2xl text-xl mt-3 font-sans">
                 The Human Practices Subcommittee explores the real-world application of our project and its social, 
                 economic, and environmental implications. We actively reflect on the impact our project will have 
                 on the world and how the world - different perspectives, views, and considerations - impacts our project. 

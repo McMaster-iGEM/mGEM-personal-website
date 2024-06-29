@@ -6,12 +6,12 @@ import MailingList from '../components/MailingList';
 
 const GetInvolved = () => {
     return (
-        <div className="max-w-7xl py-10 mx-auto max-h-full px-5">
+        <div className="max-w-7xl py-10 mx-auto max-h-full px-5 ">
             <div className="mb-10">
                 <div className="text-4xl font-bold text-left mt-32">
                     GET INVOLVED
                 </div>
-                <div className="min-h-[60vh] flex items-left justify-between mt-10 ">
+                <div className="min-h-[60vh] flex flex-col items-left justify-between mt-10 lg:flex-row lg:gap-0 gap-14 ">
                     <div className="space-y-5">
                         <h2 className="max-w-2xl text-2xl lg:text-3xl font-bold underline underline-offset-2 maroon-decoration">
                             Here at mGEM, we're more than just a research team; we're a dynamic community passionate about synthetic biology!
