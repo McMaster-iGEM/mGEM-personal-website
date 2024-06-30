@@ -25,7 +25,7 @@ export default function Page() {
   return (
     <div>
       {isClient && (
-        <BrowserRouter>
+        <BrowserRouter basename="/">
           <div className='min-h-screen max-w-screen mx-0'>
             <Navbar />
             <ScrollToTop />
