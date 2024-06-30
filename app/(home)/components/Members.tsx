@@ -25,13 +25,13 @@ const Members = () => {
             name: "Derin Sayin",
             about: "Wet Lab Lead | Biochemistry, Level 2",
             link: "https://www.linkedin.com/in/derin-sayin-733412261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-            cover: "",
+            cover: "/Derin_Sayin.jpg",
         },
         {
             name: "Kevin",
             about: "Wet Lab Lead | Life Sciences, Level 3",
             link: "https://www.linkedin.com/in/derin-sayin-733412261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-            cover: "",
+            cover: "/Kevin.JPG",
         },
         {
             name: "Abby Benyair",
@@ -55,25 +55,25 @@ const Members = () => {
             name: "Rubani Suri",
             about: "Wet Lab Member | Health Sciences, Level 2",
             link: "http://www.linkedin.com/in/rubani-suri",
-            cover: "",
+            cover: "/Rubani.jpg",
         },
         {
             name: "Isabella",
             about: "Wet Lab Senior Member | Molecular Biology and Genetics, Level 2",
             link: "https://www.linkedin.com/in/isabellavalentini?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-            cover: "",
+            cover: "/Isabella.jpg",
         },
         {
             name: "Alice Pao",
             about: "Wet Lab Senior Member | Biochemistry, Level 3",
             link: "https://www.linkedin.com/in/alice-pao03?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-            cover: "",
+            cover: "/Alice_Pao.jpg",
         },
         {
             name: "Haram",
             about: "Wet Lab Member | Health Sciences, Level 3",
             link: "https://www.linkedin.com/in/haram-akram-abb098265/",
-            cover: "",
+            cover: "/Haram.jpg",
         }
 
     ];
@@ -83,43 +83,43 @@ const Members = () => {
             name: "Alesha Singh",
             about: "Dry Lab Lead | Health Science (Honours)",
             link: "",
-            cover: "",
+            cover: "/Alesha_Singh.jpg",
         },
         {
             name: "Franky Liu",
             about: "Dry Lab Lead | Health, Engineering Science, and Entrepreneurship (HESE), Level III",
             link: "https://www.linkedin.com/in/franky-liu-2a78601a4/",
-            cover: "",
+            cover: "/Franky_Liu.jpg",
         },
         {
             name: "Marco Tan",
             about: "Dry Lab Member | Mechatronics and Biomedical Engineering, Level 3",
             link: "https://www.linkedin.com/in/marcotan04/",
-            cover: "",
+            cover: "/Marco_Tan.jpg",
         },
         {
             name: "Morgan Puusaari",
             about: "Dry Lab Member | Life Sciences, Level 1",
             link: "",
-            cover: "",
+            cover: "/Morgan_Puusaari.jpg",
         },
         {
             name: "Cynthia",
             about: "Dry Lab Member | Health Sciences, Level I",
             link: "",
-            cover: "",
+            cover: "/Cynthia.jpg",
         },
         {
             name: "Navid",
             about: "Dry Lab Member | Health Sciences, Level 1",
             link: "",
-            cover: "",
+            cover: "/Navid.jpg",
         },
         {
             name: "Jonathan Guan",
             about: "Dry Lab Member | Health Sciences, Level II",
             link: "",
-            cover: "",
+            cover: "/Jonathan_Guan.jpg",
         }
     ];
 
@@ -128,19 +128,19 @@ const Members = () => {
             name: "Helen Peng",
             about: "HP Lead | Health Science, Engineering Science, and Entrepreneurship",
             link: "https://www.linkedin.com/in/helen-peng-0069a61b4",
-            cover: "",
+            cover: "/Helen_Peng.jpg",
         },
         {
             name: "Anjana Sudharshan",
             about: "HP Lead | Honours Life Sciences",
             link: "http://www.linkedin.com/in/anjana-sud",
-            cover: "",
+            cover: "/Anjana_Sudharshan.jpg",
         },
         {
             name: "Michelle Giang",
             about: "Outreach | Honours Biochemistry,  Level 3",
             link: "https://www.linkedin.com/in/marcotan04/",
-            cover: "",
+            cover: "/Michelle_Giang.jpg",
         },
         {
             name: "Bohdan Mozharivsky ",
@@ -152,13 +152,13 @@ const Members = () => {
             name: "Hassan Hassan",
             about: "Scicomm (Science Communication) | Honours Life Sciences",
             link: "https://www.linkedin.com/in/hassan-hassan-aa0524184/",
-            cover: "",
+            cover: "/Hassan_Hassan.jpg",
         },
         {
             name: "Anh Bui",
             about: "Outreach | Honours Arts & Science",
             link: "https://www.linkedin.com/in/anhbui05/",
-            cover: "",
+            cover: "/Anh_Bui.jpg",
         },
         {
             name: "Zoha",
@@ -173,25 +173,25 @@ const Members = () => {
             name: "Ashley Qian",
             about: "Project Manager Co-Lead | Health Science (Honours)",
             link: "https://www.linkedin.com/in/ashley-qian-624043217/",
-            cover: "",
+            cover: "/Ashley_Qian.jpg",
         },
         {
             name: "Mahnoor Moin",
             about: "Project Manager Co-Lead | Health Science (Honours)",
             link: "https://www.linkedin.com/in/mahnoor-moin-8a5554196/",
-            cover: "",
+            cover: "/Mahnoor_Moin.jpg",
         },
         {
             name: "Mya George",
             about: "Finance and Sponsorship Co-Lead |Graduate of Health Science (Honours), Child Health Specialization Incoming Masters of Arts Student, Health and Aging  ",
             link: "https://www.linkedin.com/in/mya-george-160a8b1a9/",
-            cover: "",
+            cover: "/Mya_George.jpg",
         },
         {
             name: "Myra Godara",
             about: "Honours Biochemistry III | Finance and Sponsorship Co-Lead",
             link: "https://www.linkedin.com/in/myragodara/",
-            cover: "",
+            cover: "/Myra_Godara.jpg",
         }
     ];
 
@@ -200,7 +200,7 @@ const Members = () => {
             name: "Vanessa Lai",
             about: "Web Dev Lead | Software Engineering, Level 3",
             link: "https://www.linkedin.com/in/vanessa-lai",
-            cover: "",
+            cover: "/Vanessa.JPG",
         }
     ];
 
@@ -209,19 +209,19 @@ const Members = () => {
             name: "Jessie Liu",
             about: "Design Lead | Honours Biochemistry III",
             link: "",
-            cover: "",
+            cover: "/Jessie_Liu.jpg",
         },
         {
             name: "Rand Al-Wazzan",
             about: "Social Media Lead | Honours Environmental Sciences, level 4",
             link: "http://www.linkedin.com/in/rand-al-wazzan-9784bb204",
-            cover: "",
+            cover: "/Rand.jpg",
         },
         {
             name: "Kaia Seet",
             about: "Creative Designer | Electrical and Biomedical Engineering, Level II ",
             link: "http://www.linkedin.com/in/kaiaseet",
-            cover: "",
+            cover: "/Kaia_Seet.JPG",
         },
         {
             name: "Melody",

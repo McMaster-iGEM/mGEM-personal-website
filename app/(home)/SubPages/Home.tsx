@@ -10,9 +10,9 @@ const Home = () => {
 
                 <ContainerScroll titleComponent={
                     <>
-                        <div className="italic text-6xl md:text-7xl lg:text-9xl xl:text-[14rem]">mGEM</div>
-                        <div className="stroke reverse-italic text-6xl md:text-7xl  lg:text-9xl xl:text-[14rem]">mGEM</div>
-                        <div className="italic text-6xl  md:text-7xl lg:text-9xl xl:text-[14rem]">mGEM</div>
+                        <div className="italic text-7xl md:text-9xl lg:text-9xl xl:text-[14rem]">mGEM</div>
+                        <div className="stroke reverse-italic text-7xl md:text-9xl  lg:text-9xl xl:text-[14rem]">mGEM</div>
+                        <div className="italic text-7xl  md:text-9xl lg:text-9xl xl:text-[14rem]">mGEM</div>
                     </>
                 }>
                     <video
