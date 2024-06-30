@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
             
             <Link to="/">
                 <div>
-                    <img src="/MGEM-Logo.png" alt="MGEM" className="h-10 w-16" />
+                    <img src="/MGEM-Logo.png" alt="mGEM" width="50" height="50" />
                 </div>
             </Link>
 
