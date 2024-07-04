@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
@@ -54,6 +55,7 @@ export const HoverEffect = ({
           </AnimatePresence>
           <Card
             icon={item.icon}
+            link={item.link}
             description={item.description}
             isSelected={selectedIndex === idx}
             isHovered={hoveredIndex === idx}
@@ -67,12 +69,14 @@ export const HoverEffect = ({
 export const Card = ({
   className,
   icon,
+  link,
   description,
   isHovered,
   isSelected,
 }: {
   className?: string;
   icon: string;
+  link: string;
   description: string;
   isHovered: boolean;
   isSelected: boolean;
@@ -89,8 +93,8 @@ export const Card = ({
           {isSelected ? (
             <div>
               <p className="text-left text-base whitespace-pre-wrap mt-2">{description}</p>
-              <a href={icon} target="_blank" rel="noopener noreferrer" className="text-maroon underline text-base">
-                Learn more 
+              <a href={link} target="_blank" rel="noopener noreferrer" className="text-maroon underline text-base">
+                Learn more
               </a>
             </div>
           ) : (

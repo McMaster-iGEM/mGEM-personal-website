@@ -339,19 +339,7 @@ const Members = () => {
                     </Link>
                 ))}
             </div>
-            <hr></hr>
 
-            <div className="text-4xl font-bold mt-14">
-                STAFF
-            </div>
-
-            <Title text="Mentors" className="mb-5" />
-
-            <hr></hr>
-            
-            <Title text="PI" className="mb-5" />
-
-            <hr></hr>
         </div>
     );
 }

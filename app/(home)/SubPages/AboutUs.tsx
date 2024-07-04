@@ -10,7 +10,7 @@ const AboutUs = () => {
             <Title text="Our Mission" className="mb-5" />
             <hr />
             <div className ="flex items-center justify-between">
-                <p className = "text-xl mt-5 font-sans">
+                <p className = "mt-5 text-lg text-gray-800 py-2 font-medium">
                 A highly accomplished international synthetic biology competition aimed towards mostly undergraduates, 
                 with the involvement of graduates, professors, and various stakeholders. Interdisciplinary teams 
                 specializing in Wet Lab, Dry Lab, and Human Practices collaborate to create novel synthetic biology 
@@ -45,7 +45,7 @@ const AboutUs = () => {
             <Title text="Wet Lab" className="mb-5" />
             <hr />
             <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
-                <p className = "max-w-2xl text-xl mt-3 font-sans">
+                <p className = "max-w-2xl text-lg text-gray-800 py-2 font-medium">
                 Wet lab is a subcommittee of the iGEM team that is responsible for developing biological 
                 background for the project. This team is responsible for completing background literature reviews 
                 for the project to provide a rationale and proof of concept. The team is also responsible for 
@@ -64,15 +64,20 @@ const AboutUs = () => {
                 <div>
                     <img src="/MGEM-Logo.png" alt="Logo" width="500" height="500" />
                 </div>
-                <p className = "max-w-2xl text-xl mt-3">
-                (...)
+                <p className = " max-w-2xl text-lg text-gray-800 py-2 font-medium">
+                Dry Lab is a subcommittee of the McMaster-Canada iGEM team that is responsible for developing 
+                mathematical models to analyze data collected by the Wet Lab team, creating kinetic and related
+                 models to validate the system design, and designing hardware components (i.e. the physical 
+                 structure of the final system).The DL team will also utilize a variety of softwares including SimBiology,
+                  Python, and Benchling, and hardware components. Although experience in these programs is great, 
+                  it is not required in order to apply. Above all, DL values members that are dedicated and eager to learn. 
                 </p>
             </div>
 
             <Title text="Human Practices" className="mb-5" />
             <hr />
             <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
-                <p className = "max-w-2xl text-xl mt-3 font-sans">
+                <p className = "max-w-2xl text-lg text-gray-800 py-2 font-medium">
                 The Human Practices Subcommittee explores the real-world application of our project and its social, 
                 economic, and environmental implications. We actively reflect on the impact our project will have 
                 on the world and how the world - different perspectives, views, and considerations - impacts our project. 
@@ -84,21 +89,27 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            <Title text="Media (Design & Social Media)" className="mb-5 text-right" />
+            <Title text="Media (Design, Social Media & Web Dev)" className="mb-5 text-right" />
             <hr />
             <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
                 <div>
                     <img src="/MGEM-Logo.png" alt="Logo" width="500" height="500" />
                 </div>
-                <p className = "max-w-2xl text-xl mt-3">
-                (...)
+                <p className = "max-w-2xl text-lg text-gray-800 py-2 font-medium">
+                The Media Subcommittee is composed of the creatives of the team that focuses on building iGEMs brand 
+                and creating the visuals to help communicate our project to the general public and at the iGEM jamboree 
+                competition. Our Design members are responsible for creating and managing the brand for iGEM and managing 
+                major projects/deliveries. Our social media are pivotal with increasing our outreach within our community 
+                and improve our communication with members. Our Web Dev members will be in charge of the development of 
+                mGEM’s personal website and the team’s wiki for the competition to document all of our findings in a 
+                clear and visually appealing way. 
                 </p>
             </div>
 
             <Title text="Admin (Project management & Finance)" className="mb-5" />
             <hr />
             <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
-                <p className = "max-w-2xl text-xl mt-3 font-sans">
+                <p className = "max-w-2xl text-lg text-gray-800 py-2 font-medium">
                 (...)
                 </p>
                 <div>
