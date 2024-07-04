@@ -4,17 +4,17 @@ import { HoverEffect } from "./ui/card-hover-effect";
 export function SponsorIcons() {
   return (
     <>
-        <Title text= "mRNA sponsor" className = "underline underline-offset-2 maroon-decoration"/>
+        <Title text= "mRNA Sponsor" className = "underline underline-offset-2 maroon-decoration"/>
         <div className="max-w-7xl mx-auto px-8">
           <HoverEffect items={mRNA} />
         </div>
         <hr/>
-        <Title text= "Promoter sponsors" className = "underline underline-offset-2 maroon-decoration"/>
+        <Title text= "Promoter Sponsors" className = "underline underline-offset-2 maroon-decoration"/>
         <div className="max-w-7xl mx-auto px-8">
           <HoverEffect items={promoter} />
         </div>
         <hr/>
-        <Title text= "DNA sponsors" className = "underline underline-offset-2 maroon-decoration"/>
+        <Title text= "DNA Sponsors" className = "underline underline-offset-2 maroon-decoration"/>
         <div className="max-w-7xl mx-auto px-8">
           <HoverEffect items={DNA} />
         </div>
