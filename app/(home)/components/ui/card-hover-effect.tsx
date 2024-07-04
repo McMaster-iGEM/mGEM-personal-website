@@ -1,20 +1,12 @@
-/* eslint-disable @next/next/no-img-element */
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
-import Link from "next/link";
 import { useState } from "react";
-
-// Utility function to check if a URL is external
-const isExternalLink = (url: string) => {
-  return /^https?:\/\//.test(url);
-};
 
 export const HoverEffect = ({
   items,
   className,
 }: {
   items: {
-    title: string;
     link: string;
     icon: string;
     description: string;
@@ -22,22 +14,26 @@ export const HoverEffect = ({
   className?: string;
 }) => {
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  let [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+
+  const handleClick = (idx: number) => {
+    setSelectedIndex(selectedIndex === idx ? null : idx);
+  };
 
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10 gap-5",
+        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-10 gap-5",
         className
       )}
     >
       {items.map((item, idx) => (
-        <Link
-          href={item?.link}
+        <div
           key={item?.link}
-          className="relative group block p-2 h-full w-full"
+          className="relative group block p-2 h-full w-full cursor-pointer"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
-          {...(isExternalLink(item?.link) ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+          onClick={() => handleClick(idx)}
         >
           <AnimatePresence>
             {hoveredIndex === idx && (
@@ -58,11 +54,11 @@ export const HoverEffect = ({
           </AnimatePresence>
           <Card
             icon={item.icon}
-            title={item.title}
             description={item.description}
+            isSelected={selectedIndex === idx}
             isHovered={hoveredIndex === idx}
           />
-        </Link>
+        </div>
       ))}
     </div>
   );
@@ -70,16 +66,16 @@ export const HoverEffect = ({
 
 export const Card = ({
   className,
-  title,
   icon,
   description,
   isHovered,
+  isSelected,
 }: {
   className?: string;
-  title: string;
   icon: string;
   description: string;
   isHovered: boolean;
+  isSelected: boolean;
 }) => {
   return (
     <div
@@ -90,31 +86,19 @@ export const Card = ({
     >
       <div className="relative z-50">
         <div className="p-4">
-          {isHovered ? (
-            <p className="text-left text-base whitespace-pre-wrap">{description}</p>
+          {isSelected ? (
+            <div>
+              <p className="text-left text-base whitespace-pre-wrap mt-2">{description}</p>
+              <a href={icon} target="_blank" rel="noopener noreferrer" className="text-maroon underline text-base">
+                Learn more 
+              </a>
+            </div>
           ) : (
-            <>
-              <CardTitle>{title}</CardTitle>
-              <CardDescription icon={icon} />
-            </>
+            <CardDescription icon={icon} />
           )}
         </div>
       </div>
     </div>
-  );
-};
-
-export const CardTitle = ({
-  className,
-  children,
-}: {
-  className?: string;
-  children: React.ReactNode;
-}) => {
-  return (
-    <h1 className={cn("text-zinc-700 text-xl font-bold tracking-wide mt-4", className)}>
-      {children}
-    </h1>
   );
 };
 
@@ -127,7 +111,7 @@ export const CardDescription = ({
 }) => {
   return (
     <div className="flex items-center justify-center h-full mt-2">
-      <img src={icon} alt="Logo" className={cn("h-32 w-32 object-contain", className)} />
+      <img src={icon} alt="Logo" className={cn("h-52 w-52 object-contain", className)} />
     </div>
   );
 };

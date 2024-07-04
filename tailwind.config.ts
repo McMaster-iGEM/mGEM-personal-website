@@ -57,6 +57,8 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        maroon: '#7A003C',
+    
 
       },
       borderRadius: {

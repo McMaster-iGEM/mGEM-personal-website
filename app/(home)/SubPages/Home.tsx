@@ -6,7 +6,7 @@ import Storybook from '../components/HeroPhotos';
 const Home = () => {
     return (
         <div className="mb-20 max-w-7xl py-10 mx-auto items-center justify-center px-5">
-            <div className="flex mt-20 max-h-full space-y-10 flex-col overflow-hidden ">
+            <div className="flex mt-20 max-h-full flex-col overflow-hidden leading-none">
 
                 <ContainerScroll titleComponent={
                     <>

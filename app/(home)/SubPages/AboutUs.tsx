@@ -83,6 +83,28 @@ const AboutUs = () => {
                     <img src="/MGEM-Logo.png" alt="Logo" width="500" height="500" />
                 </div>
             </div>
+
+            <Title text="Media (Design & Social Media)" className="mb-5 text-right" />
+            <hr />
+            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
+                <div>
+                    <img src="/MGEM-Logo.png" alt="Logo" width="500" height="500" />
+                </div>
+                <p className = "max-w-2xl text-xl mt-3">
+                (...)
+                </p>
+            </div>
+
+            <Title text="Admin (Project management & Finance)" className="mb-5" />
+            <hr />
+            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
+                <p className = "max-w-2xl text-xl mt-3 font-sans">
+                (...)
+                </p>
+                <div>
+                    <img src="/MGEM-Logo.png" alt="Logo" width="500" height="500" />
+                </div>
+            </div>
         </div>
     );
 }
