@@ -44,7 +44,7 @@ const AboutUs = () => {
 
             <Title text="Wet Lab" className="mb-5" />
             <hr />
-            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
+            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14 py-10">
                 <p className = "max-w-2xl text-lg text-gray-800 py-2 font-medium">
                 Wet lab is a subcommittee of the iGEM team that is responsible for developing biological 
                 background for the project. This team is responsible for completing background literature reviews 
@@ -54,7 +54,7 @@ const AboutUs = () => {
                 lab to make the project into reality, generating data that will be used to validate the project design.
                 </p>
                 <div>
-                    <img src="/MGEM-Logo.png" alt="Logo" width="500" height="500" />
+                    <img src="/WLgroup.PNG" alt="Wet Lab" width="300" height="300" />
                 </div>
             </div>
 

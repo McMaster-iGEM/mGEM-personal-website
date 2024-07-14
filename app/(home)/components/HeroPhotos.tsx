@@ -4,7 +4,7 @@ import { LayoutGrid } from "./ui/layout-grid";
 
 export default function Storybook() {
   return (
-    <div className="h-screen py-20 w-full">
+    <div className="h-screen w-full">
       <LayoutGrid cards={cards} />
     </div>
   );

@@ -6,7 +6,7 @@ export default function Projects() {
   const projects = [
     {
       href: "https://2023.igem.wiki/mcmaster-canada/",
-      heading: "2023 Project",
+      heading: "2023 BacTrack",
       description: "insert project description",
       image: "/black_screen.png"
     },

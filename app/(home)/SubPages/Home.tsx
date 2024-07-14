@@ -6,7 +6,7 @@ import Storybook from '../components/HeroPhotos';
 const Home = () => {
     return (
         <div className="mb-20 max-w-7xl py-10 mx-auto items-center justify-center px-5">
-            <div className="flex mt-20 max-h-full flex-col overflow-hidden leading-none">
+            <div className="flex mt-20 max-h-full flex-col overflow-hidden leading-none mb-10">
 
                 <ContainerScroll titleComponent={
                     <>
@@ -26,11 +26,11 @@ const Home = () => {
                     </video>
                 </ContainerScroll>
             </div>
-            <hr />
-            <div className="py-10">
+            <div className="py-10 m-5">
+                <hr />
                 <HeroSubSection />
+                <hr />
             </div>
-            <hr />
             <Storybook />
         </div>
     );

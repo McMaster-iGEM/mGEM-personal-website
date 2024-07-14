@@ -15,7 +15,7 @@ export function SponsorIcons() {
         </div>
         <hr/>
         <Title text= "DNA Sponsors" className = "underline underline-offset-2 maroon-decoration"/>
-        <div className="max-w-7xl mx-auto px-8">
+        <div className="max-w-7xl mx-auto px-8 mb-10">
           <HoverEffect items={DNA} />
         </div>
     </>
