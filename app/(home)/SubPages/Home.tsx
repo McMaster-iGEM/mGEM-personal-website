@@ -30,10 +30,10 @@ const Home = () => {
                         <div className="italic text-7xl md:text-9xl lg:text-9xl xl:text-[14rem]">mGEM</div>
                     </>
                 }>
-                    <div className="relative">
+                    <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
                         <video
                             ref={videoRef}
-                            className="mx-auto rounded-2xl w-full h-full object-cover"
+                            className="absolute top-0 left-0 w-full h-full object-cover rounded-2xl"
                             draggable={false}
                             loop={true}
                             muted={isMuted}
