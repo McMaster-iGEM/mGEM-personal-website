@@ -36,7 +36,7 @@ const GetInvolved = () => {
                             Join the Team
                         </h2>
                         <p className="md:w-96 text-lg text-gray-800 py-2">
-                            Mention positions hiring (last updated)
+                            Stay tuned because there's more! We have exciting plans in store for those who want to take their involvement to the next level. We'll be opening applications for individuals eager to join our team and actively participate in groundbreaking research throughout the school year. It's a remarkable opportunity to dive deep into the world of genetic engineering.
                             <br />
                         </p>
                         <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeHcZqon-tLrMddLULJoM20c3jSV1Hvcj6RWf5S9eLyNU7QCg/viewform" className="inline-block">

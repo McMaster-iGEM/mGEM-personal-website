@@ -110,7 +110,18 @@ const AboutUs = () => {
             <hr />
             <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
                 <p className = "max-w-2xl text-lg text-gray-800 py-2 font-medium">
-                (...)
+                    The Project Management Admin Team ensures seamless operation and coordination across all teams. The 
+                    team's primary focus is on organizing and managing the workflow, creating and scheduling workshops, and 
+                    overseeing task management. They develop and maintain comprehensive project plans to align all team activities 
+                    and monitor project timelines and milestones, providing updates and adjustments as needed. Additionally, 
+                    they design and organize workshops tailored to the needs of our teams, coordinating logistics. Their goal 
+                    is to enhance productivity, allowing our teams to focus on their core responsibilities and achieve their goals effectively. <br/>
+                    <br/>
+                    The Finance Team is dedicated to securing the necessary funding and sponsorships to enable our team’s participation in 
+                    the iGEM Jamboree in Paris. This team focuses on identifying potential funding sources, developing sponsorship proposals, 
+                    and building relationships with sponsors and donors. Our responsibilities include budget planning, financial tracking, 
+                    and ensuring that our team has the resources needed to successfully complete our project. The Finance Team plays a critical 
+                    role in ensuring that our team can achieve its goals by effectively managing financial resources and securing the support of key stakeholders.
                 </p>
                 <div>
                     <img src="/MGEM-Logo.png" alt="Logo" width="500" height="500" />

@@ -33,7 +33,7 @@ const Home = () => {
                     <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
                         <video
                             ref={videoRef}
-                            className="absolute top-0 left-0 w-full h-full object-cover rounded-2xl"
+                            className="absolute top-0 left-0 w-full h-full object-cover rounded"
                             draggable={false}
                             loop={true}
                             muted={isMuted}
