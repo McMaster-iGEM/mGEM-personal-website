@@ -21,8 +21,8 @@ const Home = () => {
     };
 
     return (
-        <div className="mb-20 max-w-7xl py-10 mx-auto items-center justify-center px-5">
-            <div className="flex mt-20 max-h-full flex-col overflow-hidden leading-none mb-10">
+        <div className="mb-20 max-w-7xl py-5 mx-auto items-center justify-center px-5">
+            <div className="flex mt-20 flex-col overflow-hidden leading-none">
                 <ContainerScroll titleComponent={
                     <>
                         <div className="italic font-bold text-7xl md:text-9xl lg:text-9xl xl:text-[14rem] leading-tight">mGEM</div>
