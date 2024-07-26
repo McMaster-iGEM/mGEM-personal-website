@@ -40,7 +40,7 @@ const GetInvolved = () => {
                             <br />
                         </p>
                         <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeHcZqon-tLrMddLULJoM20c3jSV1Hvcj6RWf5S9eLyNU7QCg/viewform" className="inline-block">
-                                <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm hover:scale-110 p-1">
+                                <button className="w-44 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm hover:scale-110 p-1">
                                     Subteam Recruitment
                                 </button>
                         </Link>

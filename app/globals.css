@@ -97,3 +97,7 @@
     transform: scaleX(-1);
   }
 
+  .no-space {
+    line-height: 0;
+  }
+
