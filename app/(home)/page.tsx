@@ -9,7 +9,7 @@ import Projects from './SubPages/Projects';
 import Home from './SubPages/Home';
 import AboutUs from './SubPages/AboutUs';
 import Sponsors from './SubPages/Sponsors';
-import ScrollToTop from './components/ScroolToTop';
+import ScrollToTop from './components/ScrollToTop';
 
 
 
