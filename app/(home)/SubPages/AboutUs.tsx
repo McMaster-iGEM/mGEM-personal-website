@@ -61,9 +61,9 @@ const AboutUs = () => {
 
             <Title text="Dry Lab" className="mb-5 text-right" />
             <hr />
-            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
+            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14 py-10">
                 <div>
-                    <img src="/MGEM-Logo.png" alt="Logo" width="500" height="500" />
+                    <img src="/DL.jpg" alt="Logo" width="500" height="500" />
                 </div>
                 <p className = " max-w-2xl text-lg text-gray-800 py-2 font-medium">
                 Dry Lab is a subcommittee of the McMaster-Canada iGEM team that is responsible for developing 
@@ -77,7 +77,7 @@ const AboutUs = () => {
 
             <Title text="Human Practices" className="mb-5" />
             <hr />
-            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
+            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14 py-10">
                 <p className = "max-w-2xl text-lg text-gray-800 py-2 font-medium">
                 The Human Practices Subcommittee explores the real-world application of our project and its social, 
                 economic, and environmental implications. We actively reflect on the impact our project will have 
@@ -86,15 +86,15 @@ const AboutUs = () => {
                 HP strives to ensure this work is reflective, responsive, and responsible. 
                 </p>
                 <div>
-                    <img src="/MGEM-Logo.png" alt="Logo" width="500" height="500" />
+                    <img src="/HP.jpg" alt="Logo" width="500" height="500" />
                 </div>
             </div>
 
             <Title text="Media (Design, Social Media & Web Dev)" className="mb-5 text-right" />
             <hr />
-            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
+            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14 py-10">
                 <div>
-                    <img src="/MGEM-Logo.png" alt="Logo" width="500" height="500" />
+                    <img src="/Media.jpg" alt="Logo" width="500" height="500" />
                 </div>
                 <p className = "max-w-2xl text-lg text-gray-800 py-2 font-medium">
                 The Media Subcommittee is composed of the creatives of the team that focuses on building iGEMs brand 
@@ -109,7 +109,7 @@ const AboutUs = () => {
 
             <Title text="Admin (Project management & Finance)" className="mb-5" />
             <hr />
-            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14">
+            <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14 py-10">
                 <p className = "max-w-2xl text-lg text-gray-800 py-2 font-medium">
                     The Project Management Admin Team ensures seamless operation and coordination across all teams. The 
                     team's primary focus is on organizing and managing the workflow, creating and scheduling workshops, and 
@@ -125,7 +125,7 @@ const AboutUs = () => {
                     role in ensuring that our team can achieve its goals by effectively managing financial resources and securing the support of key stakeholders.
                 </p>
                 <div>
-                    <img src="/MGEM-Logo.png" alt="Logo" width="500" height="500" />
+                    <img src="/Sponsorship.jpg" alt="Logo" width="500" height="500" />
                 </div>
             </div>
         </div>

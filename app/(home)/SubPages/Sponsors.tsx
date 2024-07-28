@@ -27,7 +27,7 @@ const Sponsors = () => {
                         </Link>
                     </div>
                     <div>
-                        <img src="/MGEM-Logo.png" alt="Logo" width="500" height="500" />
+                        <img src="/Sponsorship.jpg" alt="Photo" width="500" height="500" />
                     </div>
             </div>
             <hr></hr>
