@@ -146,7 +146,7 @@ const Members = () => {
             name: "Bohdan Mozharivsky ",
             about: "Entrepreneurship | Health Science, Engineering Science, and Entrepreneurship",
             link: "http://www.linkedin.com/in/bohdan-mozharivsky-481b9a245",
-            cover: "",
+            cover: "/Bohdan.jpg",
         },
         {
             name: "Hassan Hassan",
@@ -227,7 +227,7 @@ const Members = () => {
             name: "Melody",
             about: "Graphic Designer | Honours Biochemistry III",
             link: "https://www.linkedin.com/in/melody-ding/",
-            cover: "",
+            cover: "/Melody.jpg",
         }
     ];
     
