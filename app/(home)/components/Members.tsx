@@ -152,7 +152,7 @@ const Members = () => {
             name: "Hassan Hassan",
             about: "Scicomm (Science Communication) | Honours Life Sciences",
             link: "https://www.linkedin.com/in/hassan-hassan-aa0524184/",
-            cover: "/Hassan_Hassan.jpg",
+            cover: "/Hassan_Hassan.JPG",
         },
         {
             name: "Anh Bui",

@@ -3,12 +3,12 @@ import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import GetInvolved from './SubPages/GetInvolved';
-import OurTeam from './SubPages/OurTeam';
-import Projects from './SubPages/Projects';
-import Home from './SubPages/Home';
-import AboutUs from './SubPages/AboutUs';
-import Sponsors from './SubPages/Sponsors';
+import GetInvolved from './pages/GetInvolved';
+import OurTeam from './pages/OurTeam';
+import Projects from './pages/Projects';
+import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
+import Sponsors from './pages/Sponsors';
 import ScrollToTop from './components/ScrollToTop';
 
 
