@@ -14,7 +14,7 @@ export default function Projects() {
       href: "https://2022.igem.wiki/mcmaster-canada/",
       heading: "2022 Project",
       description: "Development of a colorimetric bacterial diagnostic for the characterization of gut metabolite markers for Major Depressive disorder.",
-      image: "/2023.png",
+      image: "/2022.png",
     },
     {
       href: "https://www.frontiersin.org/articles/10.3389/fsysb.2023.1274184/full",
