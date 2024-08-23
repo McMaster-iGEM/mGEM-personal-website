@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-screen-xl mx-auto md:py-6">
+      <div className="max-w-screen-xl mx-auto md:py-6 px-3 my-2">
           <div className="sm:flex sm:items-center sm:justify-between">
               <Link to="/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                   <img src="MGEM-Logo.png" className="h-8" alt="Flowbite Logo" />

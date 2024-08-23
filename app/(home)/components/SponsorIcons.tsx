@@ -9,14 +9,14 @@ export function SponsorIcons() {
           <HoverEffect items={mRNA} />
         </div>
         <hr/>
-        <Title text= "Promoter Sponsors" className = "underline underline-offset-2 maroon-decoration"/>
-        <div className="max-w-7xl mx-auto px-8">
-          <HoverEffect items={promoter} />
-        </div>
-        <hr/>
         <Title text= "DNA Sponsors" className = "underline underline-offset-2 maroon-decoration"/>
         <div className="max-w-7xl mx-auto px-8 mb-10">
           <HoverEffect items={DNA} />
+        </div>
+        <hr/>
+        <Title text= "Promoter Sponsors" className = "underline underline-offset-2 maroon-decoration"/>
+        <div className="max-w-7xl mx-auto px-8">
+          <HoverEffect items={promoter} />
         </div>
     </>
   );
