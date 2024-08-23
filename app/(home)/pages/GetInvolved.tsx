@@ -35,7 +35,7 @@ const GetInvolved = () => {
                         <h2 className="text-3xl lg:text-4xl font-bold underline underline-offset-2 maroon-decoration">
                             Join the Team
                         </h2>
-                        <p className="md:w-96 text-lg text-gray-800 py-2 h-64">
+                        <p className="lg:w-96 med:w-72 text-lg text-gray-800 py-2 lg:h-64 md:h-96 sm:h-80">
                             Stay tuned because there's more! We have exciting plans in store for those who want to take their involvement to the next level. We'll be opening applications for individuals eager to join our team and actively participate in groundbreaking research throughout the school year. It's a remarkable opportunity to dive deep into the world of genetic engineering.
                             <br />
                         </p>
@@ -49,16 +49,14 @@ const GetInvolved = () => {
                         <h2 className="text-3xl lg:text-4xl font-bold underline underline-offset-2 maroon-decoration">
                             Become a General Member
                         </h2>
-                        <p className="md:w-96 text-lg text-gray-800 py-2 h-64">
-                        Become a part of our community by signing up as a general member. As a member, you'll gain access to exclusive events and workshops designed to expand your knowledge in synthetic biology.
+                        <p className="lg:w-96 med:w-72 text-lg text-gray-800 py-2 lg:h-64 md:h-96 sm:h-80">
+                            Become a part of our community by signing up as a general member. As a member, you'll gain access to exclusive events and workshops designed to expand your knowledge in synthetic biology.
                             <br />
                         </p>
                         <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdT-BOmd93_IRWT6hSbULLS6Gv0cmAUySkw14xcv11ETVqQJQ/viewform" className="inline-block">
-                
                                 <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm hover:scale-110 p-1">
                                     General Recruitment
                                 </button>
-                        
                         </Link>
                     </div>
                 </div>
