@@ -239,7 +239,7 @@ const Members = () => {
             </div>
             <Title text="Co-Pres" className="mb-5" />
             <hr></hr>
-            <div className="grid grid-cols-1 lg:grid-cols-3 py-10 mb-10 gap-y-5">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 py-10 mb-10 gap-y-5">
                 {pres.map((member, index) => (
                     <Link href={member.link} key={index}>
                         <DirectionAwareHover imageUrl={member.cover} className="w-full cursor-pointer">
@@ -253,7 +253,7 @@ const Members = () => {
             </div>            
             <Title text="Wet Lab" className="mb-5" />
             <hr></hr>
-            <div className="grid grid-cols-1 lg:grid-cols-3 py-10 mb-10 gap-y-5">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 py-10 mb-10 gap-y-5">
                 {wetlab.map((member, index) => (
                     <Link href={member.link} key={index}>
                         <DirectionAwareHover imageUrl={member.cover} className="w-full cursor-pointer">
@@ -268,7 +268,7 @@ const Members = () => {
 
             <Title text="Dry Lab" className="mb-5" />
             <hr></hr>
-            <div className="grid grid-cols-1 lg:grid-cols-3 py-10 mb-10 gap-y-5">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 py-10 mb-10 gap-y-5">
                 {drylab.map((member, index) => (
                     <Link href={member.link} key={index}>
                         <DirectionAwareHover imageUrl={member.cover} className="w-full cursor-pointer">
@@ -283,7 +283,7 @@ const Members = () => {
 
             <Title text="Human Practices" className="mb-5" />
             <hr></hr>
-            <div className="grid grid-cols-1 lg:grid-cols-3 py-10 mb-10 gap-y-5">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 py-10 mb-10 gap-y-5">
                 {hp.map((member, index) => (
                     <Link href={member.link} key={index}>
                         <DirectionAwareHover imageUrl={member.cover} className="w-full cursor-pointer">
@@ -298,7 +298,7 @@ const Members = () => {
 
             <Title text="Web Dev" className="flex flex-col items-start justify-center mb-5" />
             <hr></hr>
-            <div className="grid grid-cols-1 lg:grid-cols-3 py-10 mb-10 gap-y-5">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 py-10 mb-10 gap-y-5">
                 {webDev.map((member, index) => (
                     <Link href={member.link} key={index}>
                         <DirectionAwareHover imageUrl={member.cover} className="w-full space-y-5 cursor-pointer">
@@ -313,7 +313,7 @@ const Members = () => {
 
             <Title text="Media" className="mb-5" />
             <hr></hr>
-            <div className="grid grid-cols-1 lg:grid-cols-3 py-10 mb-10 gap-y-5">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 py-10 mb-10 gap-y-5">
                 {media.map((member, index) => (
                     <Link href={member.link} key={index}>
                         <DirectionAwareHover imageUrl={member.cover} className="w-full cursor-pointer">
@@ -327,7 +327,7 @@ const Members = () => {
             </div>
 
             <Title text="Administration" className="mb-5" />
-            <div className="grid grid-cols-1 lg:grid-cols-3 py-10 mb-10 gap-y-5">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 py-10 mb-10 gap-y-5">
                 {admin.map((member, index) => (
                     <Link href={member.link} key={index}>
                         <DirectionAwareHover imageUrl={member.cover} className="w-full cursor-pointer">
