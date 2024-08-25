@@ -37,21 +37,19 @@ export const TypewriterEffectSmooth = ({
   const renderWords = () => {
     return (
       <div ref={textRef}>
-        {wordsArray.map((word, idx) => {
-          return (
-            <div key={`word-${idx}`} className="inline-block">
-              {word.text.map((char, index) => (
-                <span
-                  key={`char-${index}`}
-                  className={cn(`dark:text-white text-black`, word.className)}
-                >
-                  {char}
-                </span>
-              ))}
-              &nbsp;
-            </div>
-          );
-        })}
+        {wordsArray.map((word, idx) => (
+          <div key={`word-${idx}`} className="inline-block">
+            {word.text.map((char, index) => (
+              <span
+                key={`char-${index}`}
+                className={cn(`dark:text-white text-black`, word.className)}
+              >
+                {char}
+              </span>
+            ))}
+            &nbsp;
+          </div>
+        ))}
       </div>
     );
   };
@@ -61,10 +59,10 @@ export const TypewriterEffectSmooth = ({
       <motion.div
         className="overflow-hidden pb-2 max-w-full break-words"
         initial={{
-          width: "0%",
+          width: "auto",
         }}
         whileInView={{
-          width: "fit-content",
+          width: "auto",
         }}
         transition={{
           duration: 3,
@@ -75,8 +73,8 @@ export const TypewriterEffectSmooth = ({
         <div
           className="sm:text-base md:text-2xl lg:text-3xl xl:text-4xl font-bold"
         >
-          {renderWords()}{" "}
-        </div>{" "}
+          {renderWords()}
+        </div>
       </motion.div>
       <motion.span
         initial={{
