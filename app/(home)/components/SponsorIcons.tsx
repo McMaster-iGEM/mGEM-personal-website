@@ -72,7 +72,7 @@ export const DNA = [
   {
     link: "https://www.eng.mcmaster.ca/", 
     icon: "https://www.eng.mcmaster.ca//app/uploads/2024/02/eng-mcmaster.jpg", 
-    description: "The Faculty of Engineering"
+    description: "The Faculty of Engineering at McMaster University is renowned for its innovative approach to education and research, serving over 6,500 students across various engineering disciplines. The faculty offers comprehensive undergraduate and graduate programs in fields such as Chemical, Civil, Electrical, Mechanical, Software, and Materials Engineering. With a strong commitment to experiential learning, students benefit from hands-on opportunities through co-op programs, internships, and collaborative projects. Dr. Heather Sheardown serves as the Dean of Engineering, with expertise in biomaterials, tissue engineering, mathematical modeling of physiologic processes, and ophthalmic drug delivery."
     
   }
 ];
