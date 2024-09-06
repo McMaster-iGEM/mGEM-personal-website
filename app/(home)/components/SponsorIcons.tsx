@@ -68,5 +68,11 @@ export const DNA = [
     link: "https://omniabio.com/",
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpZS0JdUelSsJy2138kVULkGxtJsSaxjTl0A&s",
     description: "Defined by our collaborative and innovation-first culture, OmniaBio is a leader in cell and gene therapy (CGT) manufacturing. With deep technical expertise and experience seated within a thriving CGT ecosystem, we accelerate progress through the entire product lifecycle – from development through to clinical and ultimately commercial manufacture and launch." 
+  }, 
+  {
+    link: "https://www.eng.mcmaster.ca/", 
+    icon: "https://www.eng.mcmaster.ca//app/uploads/2024/02/eng-mcmaster.jpg", 
+    description: "The Faculty of Engineering"
+    
   }
 ];

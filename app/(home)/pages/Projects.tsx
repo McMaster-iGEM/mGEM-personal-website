@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import { PinContainer } from "../components/ui/pin";
 import Title from "../components/Subtitle";
+import { AiFillSound } from "react-icons/ai";
+
+
 
 export default function Projects() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [isMuted, setIsMuted] = useState(true);
+
+  const toggleMute = () => {
+      if (videoRef.current) {
+          videoRef.current.muted = !isMuted;
+          setIsMuted(!isMuted);
+          if (!isMuted) {
+              videoRef.current.play().catch(error => {
+                  console.log('Error trying to play video:', error);
+              });
+          }
+      }
+  };
   const projects = [
     {
       href: "https://2023.igem.wiki/mcmaster-canada/",
@@ -30,7 +47,23 @@ export default function Projects() {
       <div>
         <Title text="Current Projects" className="mb-5" />
         <hr />
-        <p className="text-xl mt-3">Coming Soon</p>
+        <PinContainer className="text-slate-700/50 border border-gray-300 rounded w-full">
+          <h3 className="pb-2 m-0 font-bold text-base text-slate-800"> Hermes </h3>
+          <video
+            ref={videoRef}
+            className="relative w-full h-full object-cover rounded"
+            draggable={false}
+            loop
+            autoPlay
+            muted={isMuted}
+          >
+            <source src="/Videos/Promo Video McMaster_Canada Final.mp4" type="video/mp4" />
+          </video>
+          <AiFillSound
+              onClick={toggleMute}
+              className="absolute top-4 right-4 cursor-pointer text-white text-2xl z-10"
+          />
+        </PinContainer>
         <Title text="HP Initiatives & StoryBook" className="mb-5" />
         <hr />
         <p className="text-xl mt-3">Coming Soon</p>
