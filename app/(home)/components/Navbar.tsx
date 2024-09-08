@@ -78,7 +78,7 @@ const Navbar: React.FC = () => {
                 {socials.map((social, index) => {
                     const Icon = social.Icon;
                     return (
-                        <a href={social.link} key={index} aria-label={social.label}>
+                        <a href={social.link} key={index} aria-label={social.label} target="_blank" rel="noopener noreferrer" >
                             <Icon className="w-5 h-5 hover:scale-125 transition-all" />
                         </a>
                     );

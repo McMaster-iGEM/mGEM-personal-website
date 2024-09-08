@@ -39,10 +39,15 @@ const GetInvolved = () => {
                             Stay tuned because there's more! We have exciting plans in store for those who want to take their involvement to the next level. We'll be opening applications for individuals eager to join our team and actively participate in groundbreaking research throughout the school year. It's a remarkable opportunity to dive deep into the world of genetic engineering.
                             <br />
                         </p>
-                        <Link href="https://docs.google.com/document/d/12x4nh5MbQLHoCbPmu-ArO49y928oCZ-ayRA6sfAx_gU/edit?usp=sharing" className="inline-block">
-                                <button className="w-44 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm hover:scale-110 p-1">
-                                    Coming Soon
-                                </button>
+                        <Link 
+                            href="https://docs.google.com/document/d/12x4nh5MbQLHoCbPmu-ArO49y928oCZ-ayRA6sfAx_gU/edit?usp=sharing" 
+                            className="inline-block" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <button className="w-44 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm hover:scale-110 p-1">
+                                Coming Soon
+                            </button>
                         </Link>
                     </div>
                     <div className="space-y-10 w-full md:w-1/2">
@@ -53,10 +58,15 @@ const GetInvolved = () => {
                             Become a part of our community by signing up as a general member. As a member, you'll gain access to exclusive events and workshops designed to expand your knowledge in synthetic biology.
                             <br />
                         </p>
-                        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeEqk94TJqT3pwhfdj_DpPMoS82sSp50KKR6h1vKAQfy7g8Ig/viewform" className="inline-block">
-                                <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm hover:scale-110 p-1">
-                                    General Recruitment
-                                </button>
+                        <Link 
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSeEqk94TJqT3pwhfdj_DpPMoS82sSp50KKR6h1vKAQfy7g8Ig/viewform" 
+                            className="inline-block" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm hover:scale-110 p-1">
+                                General Recruitment
+                            </button>
                         </Link>
                     </div>
                 </div>
