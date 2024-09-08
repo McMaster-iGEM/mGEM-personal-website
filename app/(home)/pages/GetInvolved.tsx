@@ -53,7 +53,7 @@ const GetInvolved = () => {
                             Become a part of our community by signing up as a general member. As a member, you'll gain access to exclusive events and workshops designed to expand your knowledge in synthetic biology.
                             <br />
                         </p>
-                        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdT-BOmd93_IRWT6hSbULLS6Gv0cmAUySkw14xcv11ETVqQJQ/viewform" className="inline-block">
+                        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeEqk94TJqT3pwhfdj_DpPMoS82sSp50KKR6h1vKAQfy7g8Ig/viewform" className="inline-block">
                                 <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm hover:scale-110 p-1">
                                     General Recruitment
                                 </button>
