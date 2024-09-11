@@ -47,7 +47,7 @@ const Projects = () => {
                 <Title text="Current Projects" className="mb-5" />
                 <hr />
                 <PinContainer className="relative text-slate-700/50 border border-gray-300 rounded w-full">
-                    <h3 className="pb-2 m-0 font-bold text-base text-slate-800"> Hermes </h3>
+                    <h3 className="pb-2 m-0 font-bold text-base text-slate-800"> Hermes Project Promotion </h3>
                     <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
                         <video
                             ref={videoRef}
