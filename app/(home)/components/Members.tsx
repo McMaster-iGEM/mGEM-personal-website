@@ -7,7 +7,7 @@ const Members = () => {
     const PI = [
         {
             name: "Dr. Jonathan Bramson",
-            about: "Vice-Dean, Health Sciences, Research, Faculty of Health Sciences",
+            about: "Vice-Dean, Faculty of Health Sciences",
             link: "https://experts.mcmaster.ca/display/bramsonj ",
             cover: "/bramson-jonathan.jpg",
         },
