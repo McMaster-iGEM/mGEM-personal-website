@@ -30,7 +30,7 @@ export const mRNA = [
   {
   link: "https://oicr.on.ca/",
   icon: "https://media.licdn.com/dms/image/v2/C4E0BAQERxrQ46Gllaw/company-logo_200_200/company-logo_200_200/0/1630592770623/ontario_institute_for_cancer_research_logo?e=2147483647&v=beta&t=UGo8Qb0D4x_TdaSCl7ncQpzPPmX4yEWEmVjonKlXxD8",
-  description: "OICR is Ontario’s cancer research institute, focused on delivering real-world solutions that will improve the lives of people affected by cancer."
+  description: "The Ontario Institute for Cancer Research (OICR) is a globally recognized research organization dedicated to advancing cancer research and accelerating the development of innovative cancer treatments. Based in Toronto, OICR collaborates with scientists, clinicians, and patients to translate groundbreaking discoveries into clinical practice. Their efforts focus on personalized cancer therapies, cutting-edge genomics, and novel diagnostic tools that improve patient outcomes. OICR’s work is supported by the Government of Ontario, and the institute plays a key role in fostering partnerships with academic, clinical, and industrial leaders in the fight against cancer."
   }
 ];
 
