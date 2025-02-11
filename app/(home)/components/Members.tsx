@@ -4,13 +4,17 @@ import Link from 'next/link';
 import { DirectionAwareHover } from './ui/direction-aware-hover';
 
 const Members = () => {
-    const PI = [
+
+    const advisors = [
         {
             name: "Dr. Jonathan Bramson",
             about: "Vice-Dean, Faculty of Health Sciences",
             link: "https://experts.mcmaster.ca/display/bramsonj ",
             cover: "/bramson-jonathan.jpg",
-        },
+        }
+
+    ];
+    const PI = [
         {
             name: "Dr. Tohid Didar",
             about: "Associate Professor, Mechanical Engineering",
@@ -251,6 +255,20 @@ const Members = () => {
         <div className="py-20 sm:p-0 text-left px-4">
             <div className="text-4xl font-bold mt-32">
                 TEAM
+            </div>
+            <Title text="Advisors" className="mb-5" />
+            <hr></hr>
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 py-10 mb-10 gap-y-5">
+                {advisors.map((member, index) => (
+                    <Link href={member.link} key={index}>
+                        <DirectionAwareHover imageUrl={member.cover} className="w-full cursor-pointer">
+                            <div className="space-y-5">
+                                <h1 className="text-2xl font-bold">{member.name}</h1>
+                                <p>{member.about}</p>
+                            </div>
+                        </DirectionAwareHover>
+                    </Link>
+                ))}
             </div>
             <Title text="Principal Investigators" className="mb-5" />
             <hr></hr>

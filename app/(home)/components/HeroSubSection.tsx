@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const HeroSubSection = () => {
     const words = [
         {
-          text: "sythetic",
+          text: "Synthetic",
         },
         {
           text: "biology",
