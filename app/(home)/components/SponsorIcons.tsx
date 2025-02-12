@@ -25,7 +25,7 @@ export const mRNA = [
   {
     link: "https://healthsci.mcmaster.ca/",
     icon: "https://live.staticflickr.com/3064/3041873734_9d16d5d3ca_b.jpg",
-    description: "McMaster’s Faculty of Health Sciences works to cultivate crucial skills and interdisciplinary knowledge in health, wellness and illness. Paul O'Byrne is the Dean and Vice-President of the Faculty of Health Sciences. Dr. O'Byrne has authoured over 550 peer-reviewed articles as a practicing respirologist and has recently been appointed as an Officer of the Order of Canada for his global impact on the concept and treatment of asthma. "
+    description: "McMaster's Faculty of Health Sciences works to cultivate crucial skills and interdisciplinary knowledge in health, wellness and illness. Paul O'Byrne is the Dean and Vice-President of the Faculty of Health Sciences. Dr. O'Byrne has authoured over 550 peer-reviewed articles as a practicing respirologist and has recently been appointed as an Officer of the Order of Canada for his global impact on the concept and treatment of asthma. "
   },
   {
   link: "https://oicr.on.ca/",

@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Title from '../components/Subtitle';
+import Image from 'next/image';
 
 const AboutUs = () => {
     return (
@@ -55,7 +56,7 @@ const AboutUs = () => {
                 lab to make the project into reality, generating data that will be used to validate the project design.
                 </p>
                 <div>
-                    <img src="/WLgroup.PNG" alt="Wet Lab" width="300" height="300" />
+                    <Image src="/WLgroup.PNG" alt="Wet Lab" width={300} height={300} />
                 </div>
             </div>
 
@@ -63,7 +64,7 @@ const AboutUs = () => {
             <hr />
             <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14 py-10">
                 <div>
-                    <img src="/DL.jpg" alt="Logo" width="500" height="500" />
+                    <Image src="/DL.jpg" alt="Logo" width={500} height={500} />
                 </div>
                 <p className = " max-w-2xl text-lg text-gray-800 py-2 font-medium">
                 Dry Lab is a subcommittee of the McMaster-Canada iGEM team that is responsible for developing 
@@ -86,7 +87,7 @@ const AboutUs = () => {
                 HP strives to ensure this work is reflective, responsive, and responsible. 
                 </p>
                 <div>
-                    <img src="/HP.jpg" alt="Logo" width="500" height="500" />
+                    <Image src="/HP.jpg" alt="Logo" width={500} height={500} />
                 </div>
             </div>
 
@@ -94,7 +95,7 @@ const AboutUs = () => {
             <hr />
             <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14 py-10">
                 <div>
-                    <img src="/Media.jpg" alt="Logo" width="500" height="500" />
+                    <Image src="/Media.jpg" alt="Logo" width={500} height={500} />
                 </div>
                 <p className = "max-w-2xl text-lg text-gray-800 py-2 font-medium">
                 The Media Subcommittee is composed of the creatives of the team that focuses on building iGEMs brand 
@@ -102,12 +103,12 @@ const AboutUs = () => {
                 competition. Our Design members are responsible for creating and managing the brand for iGEM and managing 
                 major projects/deliveries. Our social media are pivotal with increasing our outreach within our community 
                 and improve our communication with members. Our Web Dev members will be in charge of the development of 
-                mGEM’s personal website and the team’s wiki for the competition to document all of our findings in a 
+                mGEM's personal website and the team's wiki for the competition to document all of our findings in a 
                 clear and visually appealing way. 
                 </p>
             </div>
 
-            <Title text="Admin (Project management & Finance)" className="mb-5" />
+            <Title text="Admin (Project Management & Finance)" className="mb-5" />
             <hr />
             <div className ="flex flex-col items-center justify-between lg:flex-row lg:gap-0 gap-14 py-10">
                 <p className = "max-w-2xl text-lg text-gray-800 py-2 font-medium">
@@ -125,7 +126,7 @@ const AboutUs = () => {
                     role in ensuring that our team can achieve its goals by effectively managing financial resources and securing the support of key stakeholders.
                 </p>
                 <div>
-                    <img src="/Sponsorship.jpg" alt="Logo" width="500" height="500" />
+                    <Image src="/Sponsorship.jpg" alt="Logo" width={500} height={500} />
                 </div>
             </div>
         </div>

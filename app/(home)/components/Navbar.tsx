@@ -55,6 +55,7 @@ const Navbar: React.FC = () => {
             
             <Link to="/">
                 <div>
+                    {/* eslint-disable-next-line */}
                     <img src="/MGEM-Logo.png" alt="mGEM" width="50" height="50" />
                 </div>
             </Link>
