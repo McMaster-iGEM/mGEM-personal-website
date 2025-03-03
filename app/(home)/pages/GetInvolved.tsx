@@ -3,6 +3,7 @@ import React from 'react';
 import Testimonies from '../components/Testimonies';
 import Link from 'next/link';
 import MailingList from '../components/MailingList';
+import Image from 'next/image';
 
 const GetInvolved = () => {
     return (
@@ -24,6 +25,7 @@ const GetInvolved = () => {
                         </div>
                     </div>
                     <div className="mt-10">
+                        {/* eslint-disable-next-line */}
                         <img src="/GeneralMembers.jpg" alt="General Members" width="500" height="500" />
                     </div>
                 </div>

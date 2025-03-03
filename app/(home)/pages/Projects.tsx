@@ -84,6 +84,7 @@ const Projects = () => {
                             <div className="text-base m-0 p-2 font-normal h-32">
                                 <span className="text-slate-700">{project.description}</span>
                             </div>
+                            {/* eslint-disable-next-line */}
                             <img
                                 src={project.image}
                                 alt={project.heading}
