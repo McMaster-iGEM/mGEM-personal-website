@@ -23,6 +23,7 @@ const Members = () => {
         }
 
     ];
+    
     const pres = [
         {
             name: "Andrew Chami",
