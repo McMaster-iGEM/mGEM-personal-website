@@ -7,6 +7,7 @@ import MobileMenu from './MobileMenu';
 import Link from 'next/link'; // Updated import for Next.js Link
 
 const Navbar: React.FC = () => {
+    
     const socials = [
         {
             link: "mailto:igemmcmaster@gmail.com",
